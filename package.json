@@ -1,0 +1,34 @@
+{
+  "name": "namsate-react",
+  "version": "1.0.0",
+  "description": "this is namasate-react package",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Patel-Rakhi/ReactJs.git"
+  },
+  "keywords": [
+    "Patel",
+    "Rakhi"
+  ],
+  "author": "Rakhi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Patel-Rakhi/ReactJs/issues"
+  },
+  "homepage": "https://github.com/Patel-Rakhi/ReactJs#readme",
+  "devDependencies": {
+    "parcel": "^2.13.2",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-router-dom": "^7.0.2",
+    "shimmer-effects-react": "^1.0.4"
+  }
+}

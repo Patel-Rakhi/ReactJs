@@ -1,3 +1,240 @@
-h1{
+/* h1 {
     color: red;
+}
+
+#container {
+    background-color: bisque;
+    padding: 10px 10px 10px 10px;
+}
+
+.tag {
+    background-color: chocolate;
+}
+
+.HeadTag {
+    background-color: beige;
+} */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    border: 1px black solid;
+}
+
+.logo {
+    width: 80px;
+    border-radius: 25%;
+}
+
+.nav-item {
+    padding: 0px 20px;
+}
+
+.nav-item>ul {
+    display: flex;
+    gap: 18px;
+    list-style-type: none;
+    justify-content: space-between;
+}
+
+.nav-item>ul>ul {
+    padding: 15px;
+    margin: 10px;
+
+}
+
+.restro-container {
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.restaurant-container {
+    width: 85%;
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    column-gap: 2%;
+    row-gap: 20px;
+}
+
+/* 
+.restro-card {
+    box-sizing: border-box;
+    margin-bottom: 25px;
+    width: 24%;
+    padding: 0px 10px 0px 10px;
+
+} */
+
+
+
+.restro-img {
+    width: 100%;
+    height: 65%;
+    margin: 0px;
+    border-radius: 8px 8px 0px 0px;
+
+}
+
+.restro-info
+{
+    background-color: #f7f3f3;
+    padding: 10px;
+}
+
+.restro-info h2 {
+    font-size: 18px;
+    /* Title size */
+    color: #333;
+    /* Dark text color */
+    margin: 0 0 10px;
+    /* Spacing between elements */
+}
+
+.restro-info h3 {
+    font-size: 16px;
+    /* Subtitle size */
+    color: #555;
+    /* Medium-dark text color */
+    margin: 0 0 8px;
+    /* Spacing between elements */
+}
+
+.restro-info h4 {
+    text-decoration: none;
+    font-size: 14px;
+    /* Smallest text size */
+    color: #777;
+    /* Lighter text color */
+    margin: 0;
+    /* No bottom margin for compact design */
+    line-height: 1.5;
+    /* Comfortable line spacing */
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 600px) {
+    .restro-info {
+        max-width: 100%;
+        /* Full width on small screens */
+        padding: 10px;
+        /* Reduce padding */
+    }
+}
+
+
+.restro-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.filter {
+    padding: 10px;
+    display: flex;
+    gap: 18px;
+}
+
+.card {    
+    width: 325px;
+    margin-left: 5px  ;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 10px auto;
+    text-decoration: none;
+}
+
+
+.card:hover {
+    width: 280px;
+    cursor: pointer;
+    background-color: #e9e5e5;
+    margin-bottom: 20px;
+}
+
+.filter-btn {
+    font-family: Arial, sans-serif;
+    padding: 10px;
+    border-radius: 25px;
+
+}
+
+.filter-btn:hover {
+    cursor: pointer;
+    background-color: rgb(237, 127, 43);
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.login-btn {
+    font-family: Arial, sans-serif;
+    border-radius: 25px;
+
+}
+
+.login-btn:hover {
+    background-color: rgb(237, 127, 43);
+    cursor: pointer;
+}
+
+.search-box {
+    padding: 10px;
+}
+
+.search {
+    padding: 10px;
+    border: #333 solid 1px;
+}
+
+.searchbtn {
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.searchbtn:hover {
+    cursor: pointer;
+    background-color: rgb(237, 127, 43);
+}
+
+.error-container>h2 {
+    color: red;
+}
+
+.shimmer-card {
+    box-sizing: border-box;
+    margin-bottom: 25px;
+    width: 350px;
+    height: 409px;
+    padding: 0px 10px 0px 10px;
+    background: linear-gradient(to right,
+            #e0e0e0 0%,
+            #beb9b9 50%,
+            #979696 100%);
+    background-size: 200% auto;
+}
+
+.shimmer-container {
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 2%;
+    row-gap: 20px;
+}
+
+
+.user-card {
+
+    width: 80%;
+    border: 1px solid black;
+    padding: 10px 10px 10px 10px;
+    background-color: #beb9b9;
+    gap: 10px;
+}
+
+.contact-body {
+    gap: 5px;
 }
